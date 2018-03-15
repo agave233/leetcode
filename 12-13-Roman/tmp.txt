@@ -1,0 +1,41 @@
+I X C M
+V L D
+
+1 3 1 4
+3 2 1 0
+
+M CCC X IV
+
+I II III IV V VI VII VIII IX 
+X XX XXX XL L LX LXX LXXX XC
+C CC CCC CD D DC DCC DCCC CM
+M MM MMM
+
+A = ['I','II',''....]
+A = [['I'],[],[],[]]
+
+L = [['','I','II','III','IV','V','VI','VII','VIII','IX']]
+L.append(['','X','XX','XXX','XL','L','LX','LXX','LXXX','XC'])
+L.append(['','C','CC','CCC','CD','D','DC','DCC','DCCC','CM'])
+L.append(['','M','MM','MMM'])
+1314
+3   2   1  0
+1 1,1,1 1 1,5
+1997
+MCMXCIV
+1000 100 1000 10 100  1 5
+1000 900 90 4
+1 1 1 1 1 1 5 
+3 2 3 1 2 0 0 
+1 9 9 4
+3 2 1 0
+for i in range()
+
+
+以上是草稿过程。。。
+这题代码很短而且都达到了80%以上。。不看别人写的参考代码了
+对Roman数字的分析了解透彻之后就很简单了
+int-to-Roman：分离int数字,list进行替换排序即可。。
+Roman-to-int：思路就是把每个字符都替换到对应数字(在字典中已初始化)，分析罗马数字规则可以知道这些数字加或者减，并且只有在下一个数字比当前数字还大的时候才要减去当前数字（即前置减去）
+
+感觉就是在理解罗马数字而已。。。。。。。。。。。。。 
